@@ -1,0 +1,7 @@
+.DS_Store
+topgrade.d/
+fish/conf.d/
+nvim/
+tmux/plugins/
+tmux/themes/
+mise/
