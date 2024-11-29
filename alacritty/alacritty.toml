@@ -1,0 +1,31 @@
+[env]
+TERM = "alacritty"
+COLORTERM = "truecolor"
+
+[window]
+padding = { x = 0, y = 0 }
+
+opacity = 1
+blur = true
+
+startup_mode = "Maximized"
+decorations = "None"
+option_as_alt = "Both"
+
+[font]
+normal.family = "MesloLGS Nerd Font"
+size = 14 
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style.blinking = "On"
+
+[mouse]
+hide_when_typing = true
+
+[general]
+import = [
+  "~/.config/alacritty/themes/catppuccin-mocha.toml"
+]
