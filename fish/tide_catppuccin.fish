@@ -27,6 +27,10 @@ set -g tide_git_color_upstream $green
 # os
 set -g tide_os_color $text
 
+# status
+set -g tide_status_color $green
+set -g tide_status_color_failure $red
+
 # time
 set -g tide_time_color $lavender
 
