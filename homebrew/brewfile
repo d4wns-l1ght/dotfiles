@@ -1,4 +1,4 @@
-cask_args appdir: "~/Applications", require_sha: true
+cask_args appdir: "/Applications", require_sha: true
 
 # Basics
 brew "bat"
@@ -31,3 +31,4 @@ cask "hyperkey"
 cask "maccy"
 cask "monitorcontrol"
 cask "vanilla"
+cask "rectangle"
