@@ -7,7 +7,7 @@ set -gx EDITOR nvim
 set -gx XDG_CONFIG_HOME ~/.config
 set -gx HOMEBREW_BUNDLE_FILE $XDG_CONFIG_HOME/homebrew/brewfile
 
-source $XDG_CONFIG_HOME/fish/catppuccin_mocha.fish
+source $XDG_CONFIG_HOME/fish/tide_catppuccin.fish
 
 mise activate fish | source
 fzf --fish | source

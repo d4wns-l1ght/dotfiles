@@ -1,18 +1,4 @@
-set rosewater F5E0DC
-set flamingo F2CDCD
-set pink F2C2E7
-set mauve CBA6F7
-set red F38BA8
-set maroon EBA0AC
-set peach FAB387
-set yellow F9E2AF
-set green A6E3A1
-set teal 94E2D5
-set sky 89DCEB
-set sapphire 74C7EC
-set blue 89B4FA
-set lavender B4BEFE
-set text CDD6F4
+source $XDG_CONFIG_HOME/fish/catppuccin_mocha_lib.fish
 
 # cmd_duration
 set -g tide_cmd_duration_color $rosewater
