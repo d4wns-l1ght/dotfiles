@@ -8,8 +8,10 @@ set -g tide_character_color $green
 set -g tide_character_color_failure $red
 
 # context
-set -g tide_context_always_display true
 set -g tide_context_color_default $flamingo
+
+# elixir
+set -g tide_elixir_color $mauve
 
 # git
 set -g tide_git_color_branch $green
