@@ -1,0 +1,9 @@
+{
+  "accentColor": "#cba6f7",
+  "theme": "system",
+  "baseFontSize": 18,
+  "cssTheme": "Catppuccin",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter",
+  "monospaceFontFamily": "MesloLGS Nerd Font Mono"
+}
