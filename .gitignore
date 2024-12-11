@@ -7,6 +7,7 @@ mise/
 fish/fish_variables/
 fish/fish_variables
 fish/functions/awsprofile.fish
+fish/cogo_specific.fish
 MusicBrainz/
 StardewValley/
 enchant/

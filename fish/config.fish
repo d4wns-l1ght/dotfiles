@@ -9,6 +9,6 @@ set -gx HOMEBREW_BUNDLE_FILE $XDG_CONFIG_HOME/homebrew/brewfile
 
 source $XDG_CONFIG_HOME/fish/tide_catppuccin.fish
 
-mise activate fish | source
+source $XDG_CONFIG_HOME/fish/cogo_specific.fish
 fzf --fish | source
 zoxide init fish | source
