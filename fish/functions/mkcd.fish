@@ -1,4 +1,4 @@
 function mkcd
 mkdir -p "$argv"
-cd "$argv"
+z "$argv"
 end

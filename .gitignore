@@ -6,6 +6,7 @@ tmux/themes/
 mise/
 fish/fish_variables/
 fish/fish_variables
+fish/functions/awsprofile.fish
 MusicBrainz/
 StardewValley/
 enchant/
