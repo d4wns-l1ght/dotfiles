@@ -23,11 +23,13 @@ brew "tree"
 brew "zoxide"
 
 # Casks
+cask "nikitabobko/tap/aerospace"
 cask "alacritty"
 cask "alfred"
 cask "alt-tab"
 cask "firefox"
 cask "font-meslo-lg-nerd-font"
+cask "jordanbaird-ice"
 cask "hyperkey"
 cask "maccy"
 cask "monitorcontrol"
