@@ -4,10 +4,14 @@ nvim/
 tmux/plugins/
 tmux/themes/
 mise/
-fish/fish_variables/
+fish/completions/
+fish/conf.d
+fish/fishd.*
+fish/functions/
+fish/vars.fish
+fish/local.fish
 fish/fish_variables
-fish/functions/awsprofile.fish
-fish/cogo_specific.fish
+fish/themes/
 MusicBrainz/
 StardewValley/
 enchant/

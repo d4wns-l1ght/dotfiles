@@ -7,6 +7,9 @@ set -gx EDITOR nvim
 set -gx XDG_CONFIG_HOME ~/.config
 set -gx HOMEBREW_BUNDLE_FILE $XDG_CONFIG_HOME/homebrew/brewfile
 
+set -U tide_context_always_display true
+
 source $XDG_CONFIG_HOME/fish/tide_catppuccin.fish
 
 zoxide init fish | source
+
