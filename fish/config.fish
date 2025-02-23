@@ -9,5 +9,4 @@ set -gx HOMEBREW_BUNDLE_FILE $XDG_CONFIG_HOME/homebrew/brewfile
 
 source $XDG_CONFIG_HOME/fish/tide_catppuccin.fish
 
-source $XDG_CONFIG_HOME/fish/cogo_specific.fish
 zoxide init fish | source
