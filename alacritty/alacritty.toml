@@ -21,6 +21,7 @@ save_to_clipboard = true
 
 [cursor]
 style.blinking = "On"
+style.shape = "Beam"
 
 [mouse]
 hide_when_typing = true
