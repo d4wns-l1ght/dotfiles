@@ -1,3 +1,7 @@
 function fish_greeting
-fastfetch
+    if string match "*.ecs.vuw.ac.nz" $hostname --quiet
+        pfetch
+    else
+        fastfetch
+    end
 end
