@@ -11,6 +11,7 @@ set -gx HOMEBREW_BUNDLE_FILE $XDG_CONFIG_HOME/homebrew/brewfile
 set -gx tide_context_always_display true
 
 source $XDG_CONFIG_HOME/fish/tide_catppuccin.fish
+source $XDG_CONFIG_HOME/fish/local_functions.fish
 source ~/.cargo/env.fish
 
 zoxide init fish | source
