@@ -16,7 +16,6 @@ fish/vars.fish
 fish/local.fish
 fish/fish_variables
 fish/themes/
-!btop/
 !bat/
 btop/btop.log
 !alacritty/
