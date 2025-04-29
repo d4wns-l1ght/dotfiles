@@ -1,7 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
-fish_add_path /opt/homebrew/bin:/usr/local/bin:/~/.cargo/bin:/Applications/Docker.app/Contents/Resources/bin
+set -gx PATH $PATH /opt/homebrew/bin:/usr/local/bin:/Users/lunawilkes/.cargo/bin:/Applications/Docker.app/Contents/Resources/bin
 
 set -gx EDITOR nvim
 set -gx XDG_CONFIG_HOME ~/.config
@@ -14,3 +14,6 @@ source ~/.cargo/env.fish
 
 zoxide init fish | source
 
+
+# Created by `pipx` on 2025-04-17 08:36:59
+set PATH $PATH /Users/lunawilkes/.local/bin
