@@ -4,6 +4,7 @@ end
 set -gx PATH $PATH /opt/homebrew/bin:/usr/local/bin:/Users/lunawilkes/.cargo/bin:/Applications/Docker.app/Contents/Resources/bin
 
 set -gx EDITOR nvim
+set -gx MANPAGER "nvim +Man!"
 set -gx XDG_CONFIG_HOME ~/.config
 set -gx HOMEBREW_BUNDLE_FILE $XDG_CONFIG_HOME/homebrew/brewfile
 
