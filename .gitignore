@@ -4,6 +4,7 @@
 
 # Unignore top level files
 !.gitignore
+!Makefile
 !topgrade.toml
 
 # Unignore top level directories and all contents
