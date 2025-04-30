@@ -25,6 +25,9 @@
 !aerospace/
 !aerospace/**
 
+!zellij/
+!zellij/**
+
 # Ignore contents of specific directories
 tmux/plugins/
 tmux/themes/
@@ -39,3 +42,5 @@ fish/local.fish
 fish/fish_variables
 fish/local_functions.fish
 fish/local_settings.fish
+
+zellij/plugins/
