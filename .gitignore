@@ -1,23 +1,41 @@
-*/
-*.*
+# Ignore everything by default
 *
+*/
+
+# Unignore top level files
 !.gitignore
 !topgrade.toml
+
+# Unignore top level directories and all contents
 !tmux/
+!tmux/**
+
+!homebrew/
+!homebrew/**
+
+!fish/
+!fish/**
+
+!bat/
+!bat/**
+
+!alacritty/
+!alacritty/**
+
+!aerospace/
+!aerospace/**
+
+# Ignore contents of specific directories
 tmux/plugins/
 tmux/themes/
-!homebrew/
-!fish/
+
 fish/completions/
-fish/conf.d
-fish/fishd.*
+fish/conf.d/
+fish/themes/
 fish/functions/
+fish/fishd.*
 fish/vars.fish
 fish/local.fish
 fish/fish_variables
-fish/themes/
 fish/local_functions.fish
-!bat/
-btop/btop.log
-!alacritty/
-!aerospace/
+fish/local_settings.fish
