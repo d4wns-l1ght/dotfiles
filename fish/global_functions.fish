@@ -25,6 +25,10 @@ function mkcd
     z "$argv"
 end
 
-function woman --wraps=man --description 'feminism'
+function woman --wraps=man --description feminism
     man $argv
+end
+
+function git_rebase_overwrite_author_committer --wraps=git\ -c\ rebase.instructionFormat=\'\%nexec\ GIT_COMITTER_DATE=\"\%cd\"\ GIT_AUTHOR_DATE=\"\%aD\"\ git\ commit\ --amend\ --no-edit\ --reset-author\ --allow-empty\'\ rebase\ -f
+    git -c rebase.instructionFormat='%s%nexec GIT_COMMITTER_DATE="%cD" GIT_AUTHOR_DATE="%aD" git commit --amend --no-edit --reset-author --allow-empty' rebase -f $argv
 end
