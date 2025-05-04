@@ -36,3 +36,7 @@ function git_rebase_overwrite_author_committer --wraps=git\ -c\ rebase.instructi
 end
 
 abbr -a --position command ta tmux a -t
+
+function pf 
+    clear; pfetch
+end
