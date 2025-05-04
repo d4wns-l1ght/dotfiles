@@ -7,7 +7,7 @@ function cat --wraps=bat --description 'alias cat=bat'
 end
 
 function fish_greeting
-    if string match "*.ecs.vuw.ac.nz" $hostname --quiet
+    if set -q $SSH_CLIENT || set -q $SSH_SHELL
         pfetch
     else if set -q TMUX || set -q ZELLIJ || set -q SCREEN
         pfetch
