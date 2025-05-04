@@ -29,6 +29,9 @@
 !zellij/
 !zellij/**
 
+!tmuxinator/
+!tmuxinator/home.yml
+
 # Ignore contents of specific directories
 tmux/plugins/
 tmux/themes/

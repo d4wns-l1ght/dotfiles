@@ -11,6 +11,8 @@ function fish_greeting
         pfetch
     else if set -q TMUX || set -q ZELLIJ || set -q SCREEN
         pfetch
+    else if command -v tmuxinator 2>&1 >/dev/null && test -f ~/.config/tmuxinator/home.yml
+        tmuxinator home
     else
         fastfetch
     end
