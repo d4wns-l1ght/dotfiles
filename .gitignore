@@ -31,6 +31,7 @@
 
 !tmuxinator/
 !tmuxinator/home.yml
+!tmuxinator/busy.yml
 
 !nom/
 !nom/config.yml
