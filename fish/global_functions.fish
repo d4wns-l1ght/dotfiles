@@ -40,3 +40,22 @@ abbr -a --position command ta tmux a -t
 function pf 
     clear; pfetch
 end
+
+function switch_or_start_tmux_session
+    set selected_session (begin
+        tmux ls -F '#S'
+        tmuxinator list | sed -n 2p | tr -s '[:blank:]' '\n'
+    end | sort -u | fzf)
+
+    if ! string length -q -- $selected_session
+        return
+    end
+
+    if tmuxinator debug $selected_session >/dev/null
+        tmuxinator start $selected_session
+    else if tmux ls -F '#S' | rg $selected_session >/dev/null
+        tmux switch-client -t $selected_session
+    else
+        tmux display-message "No session selected_session found"
+    end
+end
