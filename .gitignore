@@ -32,6 +32,9 @@
 !tmuxinator/
 !tmuxinator/home.yml
 
+!nom/
+!nom/config.yml
+
 # Ignore contents of specific directories
 tmux/plugins/
 tmux/themes/

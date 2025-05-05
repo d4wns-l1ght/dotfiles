@@ -2,12 +2,13 @@
 name: home
 project_root: "/Users/lunawilkes"
 windows:
-- fish:
-    layout: 77b5,240x64,0,0[240x32,0,0{120x32,0,0[120x16,0,0,14,120x15,0,17,19],119x32,121,0,15},240x31,0,33{120x31,0,33,16,59x31,121,33,17,59x31,181,33,18}]
+- btop:
+    layout: 8d10,240x64,0,0[240x32,0,0{120x32,0,0[120x16,0,0,20,120x15,0,17,45],119x32,121,0,21},240x31,0,33{120x31,0,33[120x15,0,33,23,120x15,0,49,48],64x31,121,33,47,54x31,186,33,24}]
     panes:
     - tty-clock -scB
-    - clear; pfetch
+    - clear ; pfetch
     - btop
-    - while true ; cbonsai --base=2 --screensaver --time 0.5 -W -C ; end
+    - nom --config-path $XDG_CONFIG_HOME/nom/config.yml refresh ; nom --config-path $XDG_CONFIG_HOME/nom/config.yml
     - pipes-rs
+    - while true ; cbonsai --base=2 --screensaver --time 0.5 -W -C ; end
     - rainfall
