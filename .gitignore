@@ -26,9 +26,6 @@
 !aerospace/
 !aerospace/**
 
-!zellij/
-!zellij/**
-
 !tmuxinator/
 !tmuxinator/home.yml
 !tmuxinator/busy.yml
@@ -50,5 +47,3 @@ fish/local.fish
 fish/fish_variables
 fish/local_functions.fish
 fish/local_settings.fish
-
-zellij/plugins/
