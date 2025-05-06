@@ -8,7 +8,7 @@ windows:
     - tty-clock -scB
     - clear ; pfetch
     - btop
-    - nom --config-path $XDG_CONFIG_HOME/nom/config.yml refresh ; nom --config-path $XDG_CONFIG_HOME/nom/config.yml
+    - newsboat -x reload; newsboat
     - pipes-rs
     - while true ; cbonsai --base=2 --screensaver --time 0.5 -W -C ; end
     - rainfall

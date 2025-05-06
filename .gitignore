@@ -30,8 +30,8 @@
 !tmuxinator/home.yml
 !tmuxinator/busy.yml
 
-!nom/
-!nom/config.yml
+!newsboat/
+!newsboat/**
 
 # Ignore contents of specific directories
 tmux/plugins/
