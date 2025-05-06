@@ -51,10 +51,10 @@ function switch_or_start_tmux_session
         return
     end
 
-    if tmuxinator debug $selected_session >/dev/null
-        tmuxinator start $selected_session
-    else if tmux ls -F '#S' | rg $selected_session >/dev/null
+    if tmux ls -F '#S' | rg $selected_session >/dev/null
         tmux switch-client -t $selected_session
+    else if tmuxinator debug $selected_session >/dev/null
+        tmuxinator start $selected_session
     else
         tmux display-message "No session selected_session found"
     end
