@@ -7,7 +7,7 @@ function cat --wraps=bat --description 'alias cat=bat'
 end
 
 function fish_greeting
-    if set -q $SSH_CLIENT || set -q $SSH_SHELL
+    if set -q SSH_CLIENT || set -q SSH_SHELL
         pfetch
     else if set -q TMUX || set -q ZELLIJ || set -q SCREEN
         pfetch
