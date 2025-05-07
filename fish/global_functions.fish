@@ -24,6 +24,11 @@ end
 
 function mkcd
     mkdir -p "$argv"
+    cd "$argv"
+end
+
+function mkz
+    mkdir -p "$argv"
     z "$argv"
 end
 
