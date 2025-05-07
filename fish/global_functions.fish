@@ -59,3 +59,12 @@ function switch_or_start_tmux_session
         tmux display-message "No session selected_session found"
     end
 end
+
+
+function smux --description 'Creates or attaches to a tmux server over ssh' --wraps=ssh
+    ssh $argv -t 'tmux attach-session || tmux'
+end
+
+function svim --description 'Opens oil-ssh to a given address'
+    nvim oil-ssh://$argv
+end
