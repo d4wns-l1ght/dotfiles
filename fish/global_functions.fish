@@ -18,6 +18,10 @@ function pf
     clear; pfetch
 end
 
+function pfh
+    cd ~; clear; pfetch
+end
+
 function smux --description 'Creates or attaches to a tmux server over ssh' --wraps=ssh
     ssh $argv -t 'tmux attach-session || tmux'
 end
