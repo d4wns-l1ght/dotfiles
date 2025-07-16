@@ -22,22 +22,29 @@ function pfh
     cd ~; clear; pfetch
 end
 
+function svwd --description 'Saves the cwd to a global variable (shell-local) $swd'
+    set -g swd $(pwd)
+end
+
+function mvsv --description 'Moves the specified file to the location saved in $swd'
+    if test -n "$swd"
+        mv $argv "$swd"
+    else 
+        printf "\$swd not set"
+    end
+end
+
 function smux --description 'Creates or attaches to a tmux server over ssh' --wraps=ssh
     ssh $argv -t 'tmux attach-session || tmux'
 end
 
 function svim --description 'Opens oil-ssh to a given address'
-    nvim oil-ssh://$argv
+    nvim oil-ssh://$argv/
 end
 
 function mkcd
     mkdir -p "$argv"
     cd "$argv"
-end
-
-function mkz
-    mkdir -p "$argv"
-    z "$argv"
 end
 
 # fish related
