@@ -1,6 +1,6 @@
 [misc]
 # Don't ask for confirmations
-#assume_yes = true
+assume_yes = true
 
 # Disable specific steps - same options as the command line flag
 disable = ["github_cli_extensions", "git_repos","pip3", "vim", "node", "yarn", "pnpm"]
@@ -25,7 +25,7 @@ disable = ["github_cli_extensions", "git_repos","pip3", "vim", "node", "yarn", "
 #run_in_tmux = true
 
 # List of remote machines with Topgrade installed on them
-#remote_topgrades = ["toothless", "pi", "parnas"]
+remote_topgrades = ["wintermute"]
 
 # Arguments to pass SSH when upgrading remote systems
 #ssh_arguments = "-o ConnectTimeout=2"
