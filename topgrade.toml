@@ -3,7 +3,7 @@
 assume_yes = true
 
 # Disable specific steps - same options as the command line flag
-disable = ["github_cli_extensions", "git_repos","pip3", "vim", "node", "yarn", "pnpm"]
+disable = ["github_cli_extensions", "git_repos","pip3", "vim", "node", "yarn", "pnpm", "shell"]
 
 # Ignore failures for these steps
 #ignore_failures = ["powershell"]
