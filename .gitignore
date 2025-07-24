@@ -47,3 +47,4 @@ fish/local.fish
 fish/fish_variables
 fish/local_functions.fish
 fish/local_settings.fish
+fish/fish_plugins
