@@ -13,8 +13,10 @@ decorations = "None"
 option_as_alt = "Both"
 
 [font]
-normal.family = "MesloLGS Nerd Font"
-size = 14 
+# normal.family = "MesloLGS Nerd Font"
+normal.family = "Inconsolata Nerd Font"
+# normal.family = "Terminess Nerd Font"
+size = 16
 
 [selection]
 save_to_clipboard = true
