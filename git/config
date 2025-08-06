@@ -1,0 +1,64 @@
+[branch]
+    sort = -committerdate
+[color]
+    ui = true
+[color "diff-highlight"]
+    oldNormal = red bold
+    oldHighlight = red bold 52
+    newNormal = green bold
+    newHighlight = green bold 22
+[color "diff"]
+    meta = yellow
+    frag = magenta bold
+    func = 146 bold
+    commit = yellow bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+[column]
+    ui = auto
+[commit]
+    gpgsign = true
+    verbose = true
+[core]
+    pager = diff-so-fancy | less --tabs=4 -RFX
+    autocrlf = input
+    editor = nvim
+    compression = 9
+    whitespace = trailing-space
+[diff]
+    algorithm = histogram
+[diff-so-fancy]
+    first-run = false
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[gpg "ssh"]
+    program = /usr/bin/ssh
+[help]
+    autocorrect = prompt
+[init]
+    defaultBranch = main
+[interactive]
+    diffFilter = diff-so-fancy --patch
+[maintenance]
+    auto = true
+    strategy = incremental
+[pull]
+    rebase = true
+[push]
+    autoSetupRemote = true
+[rerere]
+    enabled = true
+    autoUpdate = true
+[status]
+    branch = true
+[tag]
+    sort = -version:refname
+[user]
+    email = neovx.23@proton.me
+    signing = /Users/lunawilkes/.ssh/id_rsa
+    name = d4wns-l1ght
+    signingkey = 2488B738869B3BC1
