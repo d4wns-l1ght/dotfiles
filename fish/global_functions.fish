@@ -1,5 +1,18 @@
 # abbreviations
-abbr -a --position command ta tmux a -t
+abbr -a ta tmux a -t
+
+# git
+abbr -a gs git status --short
+abbr -a ga git add
+abbr -a gap git add --patch
+abbr -a gi git init
+abbr -a gc git commit
+abbr -a gl git log
+abbr -a gcl git clone
+abbr -a gp git push
+abbr -a gu git pull
+abbr -a gd git diff
+abbr -a gr git restore
 
 # simple/wrapping functions
 function :q --description 'Exits the shell'
