@@ -1,0 +1,12 @@
+---
+name: nvim-config
+project_root: "~/.config/nvim"
+windows:
+- config:
+    layout: cc84,180x48,0,0,7
+    panes:
+    - cd ~/.config/nvim; nvim .
+- testing:
+    layout: cc84,180x48,0,0,7
+    panes:
+    - cd ~/.config/nvim; while true; nvim; end

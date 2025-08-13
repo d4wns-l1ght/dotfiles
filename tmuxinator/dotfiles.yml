@@ -1,0 +1,8 @@
+---
+name: dotfiles
+project_root: "~/.config"
+windows:
+- config:
+    layout: cc84,180x48,0,0,7
+    panes:
+    - cd ~/.config; clear; pfetch; lla
