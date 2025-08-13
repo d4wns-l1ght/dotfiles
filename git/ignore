@@ -1,0 +1,13 @@
+.DS_Store
+Session.vim
+cd-project*
+.gitlab.nvim
+.ghost
+.ipynb_checkpoints
+*.pdf
+
+#java/jdtls
+.classpath
+.project
+.settings
+target
