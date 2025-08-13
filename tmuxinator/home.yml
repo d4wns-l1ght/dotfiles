@@ -8,7 +8,7 @@ windows:
     - tty-clock -scB
     - clear ; pfetch
     - btop
-    - newsboat -x reload; newsboat
+    - newsboat -r;
     - pipes-rs
     - while true ; cbonsai --base=2 --screensaver --time 0.5 -W -C ; end
     - rainfall
