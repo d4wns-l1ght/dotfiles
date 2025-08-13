@@ -47,6 +47,10 @@ function mvsv --description 'Moves the specified file to the location saved in $
     end
 end
 
+function mvdown --description 'Moves the most recent file from the downloads folder to the current directory'
+	mv ~/Downloads/$(ls -t ~/downloads | head -n1) $(pwd)
+end
+
 function smux --description 'Creates or attaches to a tmux server over ssh' --wraps=ssh
     ssh $argv -t 'tmux attach-session || tmux'
 end
